@@ -2,7 +2,8 @@
 
 <b>Information:</b><br /><br />
 It's a dynamic html generator and object parser via property names with reflection.<br />
-Usable at send information mails, account registration / confirm emails, and more.
+Usable at send information mails, account registration / confirm emails, and more.<br />
+*Currently no comment lines at the class
 
 <b>Example Usage:</b><br /><br />
  var Output = new TemplateGenerator()<br />
