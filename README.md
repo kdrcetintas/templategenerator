@@ -1,19 +1,14 @@
 # templategenerator
 
-Information:
-
-It's a dynamic html generator and object parser via property names with reflection.
-
+<b>Information:</b><br /><br />
+It's a dynamic html generator and object parser via property names with reflection.<br />
 Usable at send information mails, account registration / confirm emails, and more.
 
-Usage:
-
-var Output = new TemplateGenerator()
-
+Usage:<br />
+<code>
+ var Output = new TemplateGenerator()
 .SetCharacterSet("utf-8")
-
 .SetGlobalFonts("Tahoma", "10px", 400)
-
 .LoadCssFromString("tr > td {padding: 5px;}")
 .OpenTable("600px", 0, 0, "left", "")
 .OpenTableBody()
@@ -34,3 +29,4 @@ var Output = new TemplateGenerator()
 .SetParserMarkup("{{Key}}")
 .ParseValuesByObject(findedSimpleObject)
 .GetOutput();
+</code>
