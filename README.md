@@ -26,5 +26,8 @@ Example Usage:<br /><br />
 .CloseTableBody()<br />
 .CloseTable()<br />
 .SetParserMarkup("{{Key}}")<br />
-.ParseValuesByObject(findedSimpleObject)
-.GetOutput();<br />
+.ParseValuesByObject(findedSimpleObject)<br />
+.GetOutput();
+
+Updates:
+Cache generated templates, and parse directly by reading them. (Soon as possible)
