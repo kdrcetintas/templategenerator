@@ -29,5 +29,5 @@ Example Usage:<br /><br />
 .ParseValuesByObject(findedSimpleObject)<br />
 .GetOutput();
 
-Updates:
+<b>Updates:</b><br />
 Cache generated templates, and parse directly by reading them. (Soon as possible)
