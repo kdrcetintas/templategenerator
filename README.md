@@ -4,8 +4,7 @@
 It's a dynamic html generator and object parser via property names with reflection.<br />
 Usable at send information mails, account registration / confirm emails, and more.
 
-Example Usage:<br />
-<code>
+Example Usage:<br /><br />
  var Output = new TemplateGenerator()<br />
 .SetCharacterSet("utf-8")<br />
 .SetGlobalFonts("Tahoma", "10px", 400)<br />
@@ -27,6 +26,5 @@ Example Usage:<br />
 .CloseTableBody()<br />
 .CloseTable()<br />
 .SetParserMarkup("{{Key}}")<br />
-.ParseValuesByObject(findedSimpleObject)<br />
+.ParseValuesByObject(findedSimpleObject)
 .GetOutput();<br />
-</code>
